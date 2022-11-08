@@ -39,11 +39,11 @@ export default function Nav() {
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
-              <Link href="#" className="text-base font-medium text-white hover:text-gray-300">
+              <Link href="demo" className="text-base font-medium text-white hover:text-gray-300">
                 Demo
               </Link>
               <Link
-                href="#"
+                href="mailto:contact@quotom.com"
                 className="inline-flex items-center rounded-full border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
               >
                 Contact
@@ -62,15 +62,15 @@ export default function Nav() {
           leaveTo="opacity-0 scale-95"
         >
           <Popover.Panel focus className="absolute inset-x-0 top-0 z-10 origin-top transform p-2 transition ">
-            <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5" >
+            <div className="overflow-hidden rounded-lg bg-gray-800 shadow-md ring-1 ring-black ring-opacity-5" >
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
                   <h1 className='text-teal-400 text-3xl font-semibold'>Quotom</h1>
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Close menu</span>
-                    <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="h-6 w-6 text-gray-100" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
@@ -80,23 +80,23 @@ export default function Nav() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-100 hover:bg-gray-900"
                     >
                       {item.name}
                     </Link>
                   ))}
                 </div>
-                <div className="mt-6 px-5">
+                <div className="mt-6 px-5 space-y-6 px-2">
                   <Link
-                    href="demo"
-                    className="block w-full rounded-full bg-teal-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-teal-500"
+                    href="mailto:contact@quotom.com"
+                    className="block w-full sm:w-1/2 rounded-full bg-teal-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-teal-500"
                   >
                     Contact
                   </Link>
 
                   <Link
                     href="demo"
-                    className="block w-full rounded-full py-2 pt-5 px-4 text-center font-medium text-black"
+                    className="block w-full rounded-md px-3 py-2 text-center font-medium text-gray-100 hover:bg-gray-900"
                   >
                     Demo
                   </Link>

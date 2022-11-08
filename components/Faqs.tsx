@@ -27,9 +27,9 @@ const faqs = [
 
 export default function Faqs() {
   return (
-    <div className="bg-gray-800 mt-10 rounded-lg m-8">
+    <div className="bg-gray-800 m-4 mt-12 sm:mt-44 lg:mt-10 rounded-lg">
       <div className="mx-auto max-w-7xl divide-y divide-gray-200 py-8 px-10 sm:px-10 lg:py-16 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-200">Frequently asked questions</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-gray-200">Frequently Asked Questions</h2>
         <div className="mt-8">
           <dl className="divide-y divide-gray-200">
             {faqs.map((faq) => (
