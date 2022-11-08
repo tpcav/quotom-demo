@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -19,9 +20,9 @@ export default function Nav() {
           >
             <div className="flex flex-1 items-center">
               <div className="flex w-full items-center justify-between md:w-auto">
-                <a href="/">
+                <Link href="/">
                   <span className="text-white text-3xl font-semibold">Quotom</span>
-                </a>
+                </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
                     <span className="sr-only">Open main menu</span>
@@ -31,22 +32,22 @@ export default function Nav() {
               </div>
               <div className="hidden space-x-8 md:ml-10 md:flex">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-base font-medium text-white hover:text-gray-300">
+                  <Link key={item.name} href={item.href} className="text-base font-medium text-white hover:text-gray-300">
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
-              <a href="#" className="text-base font-medium text-white hover:text-gray-300">
+              <Link href="#" className="text-base font-medium text-white hover:text-gray-300">
                 Demo
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="inline-flex items-center rounded-full border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
@@ -76,29 +77,29 @@ export default function Nav() {
               <div className="pt-5 pb-6">
                 <div className="space-y-1 px-2">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 <div className="mt-6 px-5">
-                  <a
+                  <Link
                     href="demo"
                     className="block w-full rounded-full bg-teal-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-teal-500"
                   >
                     Contact
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="demo"
                     className="block w-full rounded-full py-2 pt-5 px-4 text-center font-medium text-black"
                   >
                     Demo
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
