@@ -90,7 +90,6 @@ export default function Example() {
         </div>
 
         {/* More main page content here... */}
-        <Faq />
         <Team />
       </main>
     </div>
