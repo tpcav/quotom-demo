@@ -5,7 +5,6 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Faq from "../components/Faqs"
 import Team from "../components/OurTeam"
 import Nav from '../components/nav'
 
