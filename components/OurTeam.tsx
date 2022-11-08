@@ -3,7 +3,7 @@ import Image from 'next/image'
 const people = [
   {
     name: 'Thomas Cavalcante',
-    role: 'Founder / CEO',
+    role: 'Founder / Product Development',
     imageUrl:
       'https://media-exp1.licdn.com/dms/image/C4D03AQHE6X48o5A1hQ/profile-displayphoto-shrink_400_400/0/1648748496317?e=1673481600&v=beta&t=_sqkMshvqhyaKzBGBQHYFd6o6u29FP97fSXCN7D9s_M',
   },
