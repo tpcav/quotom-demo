@@ -20,7 +20,7 @@ const people = [
 export default function Team() {
   return (
     <div className="bg-gray-900 rounded-lg p-10">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-1 lg:gap-10">
             <div className="space-y-5 sm:space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
