@@ -5,8 +5,10 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Team from "../components/OurTeam"
+
 import Nav from '../components/nav'
+import Team from "../components/OurTeam"
+import Faqs from '../components/Faqs'
 
 const navigation = [
   { name: 'Home', href: '#' },
@@ -89,6 +91,7 @@ export default function Example() {
         </div>
 
         {/* More main page content here... */}
+        <Faqs />
         <Team />
       </main>
     </div>
