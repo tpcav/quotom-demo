@@ -9,9 +9,9 @@ const people = [
   },
 
   {
-  name: 'Andrew Rodebaugh',
-  role: 'Co-Founder / Software Developer',
-  imageUrl:
+    name: 'Andrew Rodebaugh',
+    role: 'Co-Founder / Software Developer',
+    imageUrl:
     'https://media-exp1.licdn.com/dms/image/C4E03AQE9WCSXwjFKQw/profile-displayphoto-shrink_400_400/0/1661798185447?e=1673481600&v=beta&t=gggVYkdSVocjBCyZnB2dv6hGJ_qUmrRZp9RB2YALk4Y',
   },
   // More people...
@@ -24,7 +24,7 @@ export default function Team() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-1 lg:gap-10">
             <div className="space-y-5 sm:space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
-              <p className="text-xl text-gray-500">
+              <p className="text-xl text-gray-400">
                 Two students at Drexel University trying to disrupt the online payment industry.
               </p>
             </div>
@@ -33,7 +33,7 @@ export default function Team() {
                 {people.map((person) => (
                   <li key={person.name}>
                     <div className="flex items-center space-x-4 lg:space-x-6">
-                      <Image className="h-16 w-16 rounded-full lg:h-20 lg:w-20" src={person.imageUrl} alt="" />
+                      <img className="h-16 w-16 rounded-full lg:h-20 lg:w-20" src={person.imageUrl} alt="" />
                       <div className="space-y-1 text-lg font-medium leading-6">
                         <h3 className='text-gray-200'>{person.name}</h3>
                         <p className="text-teal-400">{person.role}</p>

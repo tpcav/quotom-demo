@@ -1,4 +1,11 @@
+import { userAgent } from 'next/server';
+import { useState } from 'react'
+
 export default function Create () {
+
+  const [number, setNumber] = useState('');
+  const [expiration, setExpiration] = useState('');
+  const [cvc, setCvc] = useState('');
 
   function submitCard() {
     alert('Cards submitted');
