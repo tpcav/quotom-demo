@@ -33,16 +33,15 @@ export default function Example() {
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
                 <div className="lg:py-24">
-                  <a
-                    href="about"
+                  <div
                     className="inline-flex items-center rounded-full bg-gray-800 p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
                   >
                     <span className="rounded-full px-3 py-0.5 text-sm font-semibold leading-5 text-white">
                       Phase
                     </span>
                     <span className="ml-4 text-sm bg-gray-600 px-3 py-0.5 rounded-full">Start Up</span>
-                  </a>
-
+                  </div>
+                
                   <h1 className="block mt-8 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-transparent bg-clip-text bg-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">Split one payment with multiple<span id="spin" className="bg-clip-text bg-gradient-to-r from-teal-400 to-teal-800 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-teal-200"></span><br/></h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Try the demo to learn how the platform works using online virtual cards.
