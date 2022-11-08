@@ -38,7 +38,7 @@ export default function Team() {
                 </a>
               </div>
               <p className="text-xl text-gray-400">
-                Two students at Drexel University trying to disrupt the online payment industry. We are currently seeking incubator space, mentorship, & investment funding to fully build Quotom.
+                Two students at Drexel University trying to disrupt the online payment industry. We are currently seeking incubator space, mentorship, & investments to fully build Quotom.
               </p>
             
             </div>
