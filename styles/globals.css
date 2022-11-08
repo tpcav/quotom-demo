@@ -24,6 +24,20 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #111827;
   }
+}
+
+#spin {
+  
+}
+
+#spin:after {
+  content:"";
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% { content:" cards.";}
+  50% { content:" friends.";}
+  100% { content:" family.";}
 }
