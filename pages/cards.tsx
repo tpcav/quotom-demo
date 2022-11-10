@@ -1,5 +1,5 @@
 import { AiFillEdit, AiFillDelete } from 'react-icons/ai'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 
 
 

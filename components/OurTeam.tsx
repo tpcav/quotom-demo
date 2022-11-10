@@ -38,7 +38,7 @@ export default function Team() {
                       <img className="h-16 w-16 rounded-full lg:h-20 lg:w-20" src={person.imageUrl} alt="" />
                       <div className="space-y-1 text-lg font-medium leading-6">
                         <h3 className='text-gray-200'>{person.name}</h3>
-                        <p className="text-teal-400">{person.role}</p>
+                        <p className="text-sky-400">{person.role}</p>
                       </div>
                     </div>
                   </li>

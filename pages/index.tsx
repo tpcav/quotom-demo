@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 import Team from "../components/OurTeam"
 import Faqs from '../components/Faqs'
 
@@ -15,6 +15,7 @@ const navigation = [
   { name: 'Funding', href: '#' },
   { name: 'Contact', href: '#' },
 ]
+
 
 export default function Example() {
   return (
@@ -42,7 +43,7 @@ export default function Example() {
                     <span className="ml-4 text-sm bg-gray-600 px-3 py-0.5 rounded-full">Start Up</span>
                   </div>
                 
-                  <h1 className="block mt-8 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-transparent bg-clip-text bg-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">Split one payment with multiple<span id="spin" className="bg-clip-text bg-gradient-to-r from-teal-400 to-teal-800 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 text-transparent bg-clip-text bg-gradient-to-br from-teal-500 to-teal-200"></span><br/></h1>
+                  <h1 className="block mt-8 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-transparent bg-clip-text bg-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">Split online transactions with multiple<span className="bg-clip-text bg-gradient-to-r from-teal-400 to-teal-800 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 text-transparent bg-clip-text bg-gradient-to-br from-sky-500 to-sky-200"> cards</span><br/></h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                     Try the demo to learn how the platform works using online virtual cards.
                   </p>
@@ -53,7 +54,7 @@ export default function Example() {
                           <a
                             type="submit"
                             href="demo"
-                            className="lg:w-48 rounded-full bg-teal-600 py-3 px-10 font-medium text-white text-center shadow hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-900"
+                            className="lg:w-48 rounded-full bg-sky-600 py-3 px-10 font-medium text-white text-center shadow hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-900"
                           >
                             Demo
                           </a>
@@ -68,18 +69,9 @@ export default function Example() {
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
 
-                    <svg className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" viewBox="0 0 4196 2850" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="980" y="229" width="2325" height="2307" rx="1153.5" fill="#429288"/>
-                      <rect x="1388" y="1515" width="2053" height="1335" rx="100" fill="#D9D9D9" fill-opacity="0.8"/>
-                      <rect x="1578" y="1825" width="1673" height="236" rx="25" fill="#4DC197"/>
-                      <rect x="2687" y="2241" width="564" height="236" rx="25" fill="#4DC197"/>
-                      <rect x="2143" width="2053" height="1335" rx="100" fill="#D9D9D9" fill-opacity="0.95"/>
-                      <rect x="2333" y="345" width="1673" height="236" rx="25" fill="#4DC197"/>
-                      <rect x="3441" y="771" width="565" height="236" rx="25" fill="#4DC197"/>
-                      <rect y="889" width="1322" height="892" rx="100" fill="#D9D9D9" fill-opacity="0.4"/>
-                      <rect x="156" y="1153" width="1009" height="142" rx="25" fill="#4DC197"/>
-                      <rect x="805" y="1432" width="340" height="142" rx="25" fill="#4DC197"/>
-                    </svg>
+                    <img className=''
+                      src="../womanpay.png"
+                      alt="Picture of the author"/>
 
 
                 </div>

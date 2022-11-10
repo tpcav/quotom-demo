@@ -1,5 +1,5 @@
 import Create from '../components/CardForms'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 import Head from 'next/head'
 
 export default function Demo() {

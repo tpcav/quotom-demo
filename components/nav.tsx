@@ -65,7 +65,7 @@ export default function Nav() {
             <div className="overflow-hidden rounded-lg bg-gray-800 shadow-md ring-1 ring-black ring-opacity-5" >
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
-                  <h1 className='text-teal-400 text-3xl font-semibold'>Quotom</h1>
+                  <h1 className='text-sky-400 text-3xl font-semibold'>Quotom</h1>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -89,7 +89,7 @@ export default function Nav() {
                 <div className="mt-6 px-5 space-y-6 px-2">
                   <Link
                     href="mailto:contact@quotom.com"
-                    className="block w-full sm:w-1/2 rounded-full bg-teal-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-teal-500"
+                    className="block w-full sm:w-1/2 rounded-full bg-sky-500 py-3 px-4 text-center font-medium text-white shadow hover:bg-sky-600"
                   >
                     Contact
                   </Link>
