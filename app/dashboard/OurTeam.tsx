@@ -26,7 +26,7 @@ export default function Team() {
             <div className="space-y-5 sm:space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Team</h2>
               <p className="text-xl text-gray-400 mx-">
-                Two students at Drexel University trying to disrupt the online payment industry. We are currently seeking incubator space, mentorship, & investments to fully build Quotom.
+                Students at Drexel University trying to disrupt the online payment industry. We are currently seeking incubator space, mentorship, & investments to fully build Quotom.
               </p>
             
             </div>
