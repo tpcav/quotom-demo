@@ -1,8 +1,6 @@
 import { AiFillEdit, AiFillDelete } from 'react-icons/ai'
 import Nav from '../components/Nav'
 
-
-
 const cards = [
   {
     number: '0000 0000 0000 0000',
