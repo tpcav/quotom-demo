@@ -43,7 +43,7 @@ export default function Example() {
                           <a
                             type="submit"
                             href="demo"
-                            className="lg:w-48 rounded-full bg-sky-600 py-3 px-10 font-medium text-white text-center shadow hover:bg-teal-500 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-900"
+                            className="lg:w-48 rounded-full bg-sky-600 py-3 px-10 font-medium text-white text-center shadow hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-900"
                           >
                             Demo
                           </a>
