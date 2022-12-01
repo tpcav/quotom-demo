@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
-import Nav from '../dashboard/Nav'
-import Team from "../dashboard/OurTeam"
-import Faqs from '../dashboard/Faqs'
+import Nav from '../app/dashboard/Nav'
+import Team from "../app/dashboard/OurTeam"
+import Faqs from '../app/dashboard/Faqs'
 
 const navigation = [
   { name: 'Home', href: '#' },
