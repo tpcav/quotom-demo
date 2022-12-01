@@ -4,11 +4,6 @@ import Nav from '../app/dashboard/Nav'
 import Team from "../app/dashboard/OurTeam"
 import Faqs from '../app/dashboard/Faqs'
 
-const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Funding', href: '#' },
-  { name: 'Contact', href: '#' },
-]
 
 
 export default function Example() {
