@@ -66,6 +66,7 @@ export default function Nav() {
               <div className="flex items-center justify-between px-5 pt-4">
                 <div>
                   <h1 className='text-sky-400 text-3xl font-semibold'>Quotom</h1>
+                  <img></img>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">

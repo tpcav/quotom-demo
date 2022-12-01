@@ -40,7 +40,7 @@ export default function Example() {
                     <span className="rounded-full px-3 py-0.5 text-sm font-semibold leading-5 text-white">
                       Phase
                     </span>
-                    <span className="ml-4 text-sm bg-gray-600 px-3 py-0.5 rounded-full">Start Up</span>
+                    <span className="ml-4 text-sm bg-gray-600 px-3 py-0.5 rounded-full">Prototype</span>
                   </div>
                 
                   <h1 className="block mt-8 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl text-transparent bg-clip-text bg-white hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800">Split online transactions with multiple<span className="bg-clip-text bg-gradient-to-r from-teal-400 to-teal-800 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 text-transparent bg-clip-text bg-gradient-to-br from-sky-500 to-sky-200"> cards</span><br/></h1>
