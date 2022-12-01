@@ -22,6 +22,7 @@ export default function Nav() {
               <div className="flex w-full items-center justify-between md:w-auto">
                 <Link href="/">
                   <span className="text-white text-3xl font-semibold">Quotom</span>
+                  <img src=''></img>
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white">

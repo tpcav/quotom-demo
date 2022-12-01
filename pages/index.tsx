@@ -70,7 +70,7 @@ export default function Example() {
                   {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
 
                     <img className=''
-                      src="../womanpay.png"
+                      src="../quotom_logo.png"
                       alt="Picture of the author"/>
 
 
