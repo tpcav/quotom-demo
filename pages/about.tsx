@@ -95,7 +95,7 @@ export default function Example() {
               egestas fringilla sapien.
             </p>
           </div>
-          <div className="prose prose-lg prose-indigo mx-auto mt-6 text-gray-500">
+          <div className="prose prose-lg prose-indigo mx-auto mt-6 text-gray-300">
             <p>
               Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
               Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
