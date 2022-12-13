@@ -1023,7 +1023,7 @@ function Game() {
     setNextWord(words[nextWordIndex]);
   }, [gameOver]);
 
-  function handleGuess(guess) {
+  function handleGuess() {
     if (guess === nextWord) {
       setStreak(streak + 1);
       setCurrentResult(``);
